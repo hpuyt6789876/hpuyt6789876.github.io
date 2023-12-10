@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hp的博客</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-12-09T05:09:58.276Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/wiki/%E5%88%86%E7%B1%BB2/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"/>
+    <id>http://example.com/wiki/%E5%88%86%E7%B1%BB2/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</id>
+    <published>2023-12-09T05:09:35.492Z</published>
+    <updated>2023-12-09T05:09:58.276Z</updated>
+    
+    <content type="html"><![CDATA[<p>建行股份的火箭股份合计</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;建行股份的火箭股份合计&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="分类2" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/wiki/%E5%88%86%E7%B1%BB1/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"/>
+    <id>http://example.com/wiki/%E5%88%86%E7%B1%BB1/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</id>
+    <published>2023-12-09T05:09:01.480Z</published>
+    <updated>2023-12-09T05:09:21.711Z</updated>
+    
+    <content type="html"><![CDATA[<p>高峰过后那边v发动反攻不会VCD法国</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;高峰过后那边v发动反攻不会VCD法国&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="分类1" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git常用操作</title>
+    <link href="http://example.com/wiki/Git/"/>
+    <id>http://example.com/wiki/Git/</id>
+    <published>2023-12-09T03:34:22.753Z</published>
+    <updated>2023-12-10T11:56:27.610Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git常用操作"><a href="#Git常用操作" class="headerlink" title="Git常用操作"></a>Git常用操作</h1><h5 id="在新建文件夹下初始化仓库："><a href="#在新建文件夹下初始化仓库：" class="headerlink" title="在新建文件夹下初始化仓库："></a>在新建文件夹下初始化仓库：</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git init  #初始化新Git仓库(本地)</span><br><span class="line">git branch -m oldName newName #本地分支重命名(改成main,与远程默认分支名保存一致方便些)</span><br><span class="line">git remote add origin url_or_ssh  #与远程仓库建立联系</span><br></pre></td></tr></table></figure><h5 id="克隆仓库-无需先初始化仓库-："><a href="#克隆仓库-无需先初始化仓库-：" class="headerlink" title="克隆仓库(无需先初始化仓库)："></a>克隆仓库(无需先初始化仓库)：</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone url_or_ssh  #从远程克隆仓库到本地</span><br><span class="line">git clone -b branch_name --depth 1 url_or_ssh  #克隆仓库的branch_name分支的最新版本到本地</span><br></pre></td></tr></table></figure><h5 id="拉取仓库"><a href="#拉取仓库" class="headerlink" title="拉取仓库"></a>拉取仓库</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull   #从远程拉取仓库到本地(仓库需已初始化)</span><br></pre></td></tr></table></figure><h5 id="提交修改"><a href="#提交修改" class="headerlink" title="提交修改"></a>提交修改</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .  #将全部修改文件添加到本地暂存区</span><br><span class="line">git commit -m &quot;本次更新信息&quot; #提交修改到本地，并附上更新信息</span><br><span class="line">git push origin branch_name #提交修改到远程仓库branch_name分支</span><br></pre></td></tr></table></figure><h5 id="仓库信息查看、版本回退"><a href="#仓库信息查看、版本回退" class="headerlink" title="仓库信息查看、版本回退"></a>仓库信息查看、版本回退</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ls  #查看文件</span><br><span class="line">git log  #查看仓库历史提交(可查得版本号)</span><br><span class="line">git rest --hard verdion_id#回退到版本号对应的版本</span><br><span class="line"></span><br></pre></td></tr></table></figure><h5 id="分支操作"><a href="#分支操作" class="headerlink" title="分支操作"></a>分支操作</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b new_branch_name #创建新分支并立即切换到该分支下</span><br><span class="line">git checkout branch_name #切换分支</span><br><span class="line">git branch -m old_branch_name new_branch_name #分支重命名</span><br><span class="line">git branch -r  #查看远程分支列表</span><br><span class="line">git branch     #查看本地分支列表</span><br><span class="line">git push origin --delete branch_name #删除远程分支</span><br><span class="line">git branch -D branch_name   #删除本地分支</span><br></pre></td></tr></table></figure><h5 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git rm -r --cached .  #清除本地缓存 (.gitignore失效时使用,清除缓存，重新提交)</span><br><span class="line">git status             # 查看当前版本状态（是否修改）</span><br></pre></td></tr></table></figure><h5 id="相关参数"><a href="#相关参数" class="headerlink" title="相关参数"></a>相关参数</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">-f：强制执行</span><br><span class="line">//以下为猜测</span><br><span class="line">-r：远程</span><br><span class="line">-b：分支</span><br></pre></td></tr></table></figure><h5 id="在-gitignore文件中可用来告诉Git忽略哪些文件和文件夹，不提交。"><a href="#在-gitignore文件中可用来告诉Git忽略哪些文件和文件夹，不提交。" class="headerlink" title="在.gitignore文件中可用来告诉Git忽略哪些文件和文件夹，不提交。"></a>在.gitignore文件中可用来告诉Git忽略哪些文件和文件夹，不提交。</h5>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Git常用操作&quot;&gt;&lt;a href=&quot;#Git常用操作&quot; class=&quot;headerlink&quot; title=&quot;Git常用操作&quot;&gt;&lt;/a&gt;Git常用操作&lt;/h1&gt;&lt;h5 id=&quot;在新建文件夹下初始化仓库：&quot;&gt;&lt;a href=&quot;#在新建文件夹下初始化仓库：&quot; class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
